@@ -1,0 +1,38 @@
+{
+  "company": {
+    "name": "TechCorp",
+    "employees": [
+      {
+        "id": 1,
+        "personal_info": {
+          "name": "Alice",
+          "age": 29,
+          "contact": {
+            "email": "alice@techcorp.com",
+            "phone": "123-456-7890"
+          }
+        },
+        "skills": ["Java", "Python", "Project Management"]
+      },
+      {
+        "id": 2,
+        "personal_info": {
+          "name": "Bob",
+          "age": 34,
+          "contact": {
+            "email": "bob@techcorp.com",
+            "phone": "987-654-3210"
+          }
+        },
+        "skills": ["JavaScript", "React", "Team Leadership"]
+      }
+    ]
+  },
+  "projects": [
+    {
+      "project_name": "AI Development",
+      "team": [1, 2],
+      "duration": "6 months"
+    }
+  ]
+}

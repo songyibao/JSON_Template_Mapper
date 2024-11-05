@@ -1,0 +1,27 @@
+{
+  "factory_summary": {
+    "factory_name": "/factory/name",
+    "devices": [
+      {
+        "device_id": "/factory/devices/0/device_id",
+        "device_type": "/factory/devices/0/type",
+        "temperature": "/factory/devices/0/data/temperature",
+        "status": "/factory/devices/0/status"
+      },
+      {
+        "device_id": "/factory/devices/1/device_id",
+        "device_type": "/factory/devices/1/type",
+        "pressure": "/factory/devices/1/data/pressure",
+        "status": "/factory/devices/1/status"
+      }
+    ]
+  },
+  "alerts_summary": [
+    {
+      "alert_id": "/alerts/0/alert_id",
+      "affected_device": "/alerts/0/device_id",
+      "message": "/alerts/0/message",
+      "severity": "/alerts/0/severity"
+    }
+  ]
+}

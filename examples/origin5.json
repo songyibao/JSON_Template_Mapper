@@ -1,0 +1,35 @@
+{
+  "factory": {
+    "name": "SmartFactory",
+    "devices": [
+      {
+        "device_id": "sensor_001",
+        "type": "temperature_sensor",
+        "data": {
+          "temperature": 22.5,
+          "unit": "C",
+          "timestamp": "2024-11-05T10:00:00Z"
+        },
+        "status": "active"
+      },
+      {
+        "device_id": "sensor_002",
+        "type": "pressure_sensor",
+        "data": {
+          "pressure": 1.02,
+          "unit": "bar",
+          "timestamp": "2024-11-05T10:05:00Z"
+        },
+        "status": "inactive"
+      }
+    ]
+  },
+  "alerts": [
+    {
+      "alert_id": "alert_001",
+      "device_id": "sensor_001",
+      "message": "Temperature exceeds threshold",
+      "severity": "high"
+    }
+  ]
+}

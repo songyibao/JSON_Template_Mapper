@@ -8,10 +8,10 @@
 
 int test() {
     // 从文件中读取(仅用于测试)
-    yyjson_doc *original_doc = yyjson_read_file("examples/origin1.json", 0, NULL, NULL);
+    yyjson_doc *original_doc = yyjson_read_file("examples/origin5.json", 0, NULL, NULL);
     yyjson_mut_doc *original_mut_doc = yyjson_doc_mut_copy(original_doc, NULL);
     yyjson_doc_free(original_doc);
-    yyjson_doc *template_doc = yyjson_read_file("examples/template1.json", 0, NULL, NULL);
+    yyjson_doc *template_doc = yyjson_read_file("examples/template5.json", 0, NULL, NULL);
     yyjson_mut_doc *template_mut_doc = yyjson_doc_mut_copy(template_doc, NULL);
     yyjson_doc_free(template_doc);
     char *original_str = yyjson_mut_write(original_mut_doc, 0,NULL);

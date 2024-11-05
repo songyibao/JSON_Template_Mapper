@@ -1,0 +1,27 @@
+{
+  "company_summary": {
+    "company_name": "/company/name",
+    "employees": [
+      {
+        "employee_name": "/company/employees/0/personal_info/name",
+        "employee_age": "/company/employees/0/personal_info/age",
+        "skills": "/company/employees/0/skills"
+      },
+      {
+        "employee_name": "/company/employees/1/personal_info/name",
+        "employee_age": "/company/employees/1/personal_info/age",
+        "skills": "/company/employees/1/skills"
+      }
+    ]
+  },
+  "project_summary": [
+    {
+      "project_name": "/projects/0/project_name",
+      "team_members": [
+        "/company/employees/0/personal_info/name",
+        "/company/employees/1/personal_info/name"
+      ],
+      "duration": "/projects/0/duration"
+    }
+  ]
+}
