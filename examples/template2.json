@@ -1,0 +1,107 @@
+{
+  "DeviceType": "/group_name",
+  "DeviceName": "/node_name",
+  "TimeStamp": "/timestamp",
+  "data": [
+    {
+      "id": "v1",
+      "value": "/values/v1"
+    },
+    {
+      "id": "v2",
+      "value": "/values/v2"
+    },
+    {
+      "id": "v3",
+      "value": "/values/v3"
+    },
+    {
+      "id": "v4",
+      "value": "/values/v4"
+    },
+    {
+      "id": "v5",
+      "value": "/values/v5"
+    },
+    {
+      "id": "v6",
+      "value": "/values/v6"
+    },
+    {
+      "id": "v7",
+      "value": "/values/v7"
+    },
+    {
+      "id": "v8",
+      "value": "/values/v8"
+    },
+    {
+      "id": "v9",
+      "value": "/values/v9"
+    },
+    {
+      "id": "v10",
+      "value": "/values/v10"
+    },
+    {
+      "id": "v11",
+      "value": "/values/v11"
+    },
+    {
+      "id": "v12",
+      "value": "/values/v12"
+    },
+    {
+      "id": "v13",
+      "value": "/values/v13"
+    },
+    {
+      "id": "v14",
+      "value": "/values/v14"
+    },
+    {
+      "id": "v15",
+      "value": "/values/v15"
+    },
+    {
+      "id": "v16",
+      "value": "/values/v16"
+    },
+    {
+      "id": "v17",
+      "value": "/values/v17"
+    },
+    {
+      "id": "v18",
+      "value": "/values/v18"
+    },
+    {
+      "id": "v19",
+      "value": "/values/v19"
+    },
+    {
+      "id": "v20",
+      "value": "/values/v20"
+    },
+    {
+      "id": "v21",
+      "value": "/values/v21"
+    },
+    {
+      "id": "v22",
+      "value": "/values/v22"
+    },
+    {
+      "id": "v23",
+      "value": "/values/v23"
+    },
+    {
+      "id": "v24",
+      "value": "/values/v24"
+    },
+    {
+      "id": "v25",
+      "value": "/values/v25"
+    }
+  ]
+}

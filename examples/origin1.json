@@ -1,0 +1,8 @@
+{
+  "name": "Alice",
+  "details": {
+    "age": 30,
+    "city": "Wonderland"
+  },
+  "skills": ["Magic", "Swordsmanship"]
+}
